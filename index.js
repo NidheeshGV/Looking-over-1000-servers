@@ -16,6 +16,7 @@ DISCORD :  https://discord.gg/9bwxzKguv8
 
 */
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
+const keep_alive = require('./keep_alive.js')
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
